@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Background & Objects</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <p>
+    <h1>Two Grid Trick</h1>
+    <h2>Wrapper around .container or cards inside .col</h2>
+  </p>
+  <div class="bg-blue">
+    <div class="container-fluid">
+      <h5>Wrapper <b>around</b> .container</h5>
+      <div class="row">
+        <!-- all you cols -->
+        <div class="col-12 col-md-6">
+          <h6>One</h6>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque iure libero suscipit, ducimus quasi odit
+          pariatur fugiat repellendus, unde obcaecati officiis possimus molestias praesentium neque, dolorem minus fuga
+          quisquam. Aut!
+        </div>
+        <div class="col-12 col-md-6">
+          <h6>Two</h6>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima alias quod molestiae ad hic dolor? Facere
+          asperiores harum porro cum alias cupiditate pariatur quibusdam laboriosam quasi nostrum incidunt, quis quidem.
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container bg-light">
+    <h5>Cards <b>inside</b> .col</h5>
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="card-white">
+          <!-- card content -->
+          <h6>Three</h6>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima alias quod molestiae ad hic dolor? Facere
+          asperiores harum porro cum alias cupiditate pariatur quibusdam laboriosam quasi nostrum incidunt, quis quidem.
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="card-white">
+          <!-- card content -->
+          <h6>Four</h6>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima alias quod molestiae ad hic dolor? Facere
+          asperiores harum porro cum alias cupiditate pariatur quibusdam laboriosam quasi nostrum incidunt, quis quidem.
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
